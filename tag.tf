@@ -3,7 +3,7 @@ module "myresource_tagging" {
   version = "4.0.2"
  
   nb_resources = 1
-  resource_ids = [var.myresource_id_1, var.myresource_id_2]
+  resource_ids = [ "43cc8249-6098-3a4a-94be-8e60aeeb7d32" ,]
   behavior     = "merge" # Must be "merge" or "overwrite"
 
   tags = {
